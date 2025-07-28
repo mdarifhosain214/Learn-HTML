@@ -9,6 +9,25 @@
         label {
             display: block;
             margin-bottom: 10px;
+        
+
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 5px;
+            border-width: 0.04px;
+           
+            
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+        footer{
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+            bottom: 100%;
         }
     </style>
 </head>
@@ -25,13 +44,42 @@
                     <input id="name" type="text" placeholder="Enter Your Name">
                 </label>
                 <label for="email"> Your Email :
-                    <input id="email" type="email">
+                    <input id="email" type="email" placeholder="Your email">
 
                 </label>
+                <label for="phone">Your phone :
+                    <input type="text" name="" id="phone" placeholder="Your phone">
+                </label>
+                <fieldset>
+                    <legend>pick one please</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy"> chitoy
+                    </label>
+                    <label for="vapa"><input type="radio" name="pitha" id="vapa">vapa</label>
+                    <label for="puwa"><input type="radio" name="pitha" id="puwa">puwa</label>
+                </fieldset>
+                <fieldset>
+                    <legend>pick one or more item</legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha">Sorisha
+                    </label>
+                    <label for="doniwa">
+                        <input type="checkbox" name="vorta" id="doniwa">Doniwa
+                    </label>
+                    <label for="chili">
+                        <input type="checkbox" name="vorta" id="chili">Chili
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="100" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
             </form>
         </section>
     </main>
-    <footer><small>&copy; </small></footer>
+    <footer ><small>&copy;try </small></footer>
 
 </body>
 
